@@ -14,7 +14,7 @@ function ImageComparison() {
     setLoading(true);
     let res = await axios
       .post(
-        `http://35.177.14.28:5000/compareface`,
+        `https://35.177.14.28:5000/compareface`,
         { img_1: img1, img_2: img2 },
         {
           headers: {

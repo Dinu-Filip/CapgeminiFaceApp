@@ -13,7 +13,7 @@ function ImageAnalysis() {
       setLoading(true);
       let res = await axios
         .post(
-          `http://35.177.14.28:5000/`,
+          `https://35.177.14.28:5000/`,
           { file: img },
           {
             headers: {
