@@ -1,0 +1,28 @@
+.page {
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  margin-top: 20px;
+}
+.labelRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+.nav_button {
+  width: 100%;
+  height: 100%;
+  min-height: 40px;
+  border: none;
+  background-color: #003459;
+  color: white;
+}
+.nav_button:hover {
+  background-color: #00a8e8;
+}
